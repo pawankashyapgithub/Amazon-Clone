@@ -1,0 +1,417 @@
+*{
+	margin: 0px;
+	border: border-box;
+	font-family: arial;
+}
+body{
+	background: #f2f2f2;
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navbar div:hover{
+border: 1px solid white;
+}
+.logo{
+	width: 90px;
+	height: 30px;
+	background: url(amazon_logo.png) no-repeat;
+	background-size: cover;
+
+}
+.nov_address{
+	width: 100px;
+	height: 50px;
+	margin-left: 5px;
+	margin-left: 25px;
+
+}
+.deliver{
+	width: 80pxpx;
+	height: 15px;
+	color: rgba(255, 255, 255, .5);
+	margin-left: 20px;
+
+}
+.india{
+	width: 80pxpx;
+	height: 30px;
+	color: white;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.searchbar{
+	width: 600px;
+	height: 30px;
+	/** border: 1px solid white;
+	border-radius: 2px;  **/
+	display: flex;
+}
+.all{
+	width: 40px;
+	height: 30px;
+	margin-left: 0px;
+	background: lightgrey;
+	color: white;
+	text-align: center;
+	/** border: 1px solid white; **/
+	border-radius: 2px;
+	align-items: center;
+}
+.searchbox input{
+	width: 520px;
+	height: 25px;
+
+}
+.search{
+	width: 40px;
+	height: 30px;
+	background: orange;
+	color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signin{
+	width: 120px;
+	height: 30px;
+	color: white;
+	margin-left: 20px;
+	background: transparent;
+
+}
+.hello{
+	font-size: 12px;
+}
+.cart{
+	width: 80px;
+	height: 30px;
+	font-size: 15px;
+	color: white;
+	display: flex;
+}
+.trolly{
+	width: 40px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.cartp{
+	font-weight: bolder;
+	margin-top: 17px;
+}
+.novbar2{
+	width: 100%;
+	height: 40px;
+	background: #262d38;
+	color: white;
+	font-size: 15px;
+	display: flex;
+}
+.novbar2a{
+	width: 50px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2b{
+	width: 100px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2c{
+	width: 130px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2d{
+	width: 60px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2e{
+	width: 80px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2f{
+	width: 40px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.novbar2 div:hover{
+	border: 1px solid white;
+}
+/** shopping **/
+.main{
+	width: 100%;
+	height: 500px;
+	background: url(1.jpg) no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.text{
+	width: 96%;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	position: relative;
+	margin-top: 250px;
+	margin-left: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 14.3px;
+}
+.text a{
+	text-decoration: none;
+	color: #21899c;
+}
+.shopping{
+	width: 1225px;
+	height: 1000px;
+	background: transparent;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: absolute;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.shop1{
+	width: 270px;
+	height: 420px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background: White;
+}
+.shop2{
+	width: 270px;
+	height: 420px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background: White;
+}
+.shop3{
+	width: 270px;
+	height: 420px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background: White;
+}
+.shop4{
+	width: 270px;
+	height: 420px;
+	background: White;
+}
+.shop1a{
+	width: 270px;
+	height: 10px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.shop1b{
+	width: 250px;
+	height: 150px;
+}
+.shop1c{
+	width: 250px;
+	height: 150px;
+}
+.shop1d{
+	width: 270px;
+	height: 15px;
+	margin-left: 15px;
+	color: #21899c;
+	font-size: 13px;
+}
+.imgbox{
+	width: 110px;
+	height: 130px;
+	float: left;
+	margin: 20px 6px;
+
+}
+.imgimg{
+	width: 110px;
+	height: 110px;
+	float: left;
+}
+.imgcontent{
+	width: 110px;
+	height: 18px;
+	float: left;
+	color: black;
+	font-size: 12px;
+}
+.imagebig{
+	width: 230px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.shop4c{
+	width: 270px;
+	height: 15px;
+	margin-left: 15px;
+	margin-top: 23px;
+	color: #21899c;
+	font-size: 13px;
+}
+.footermain{
+	width: 1263.6px;
+	height: 1012px;
+	background: black;
+	margin-top: 1000px;
+}
+.backtotop{
+	width: 1263.6px;
+	height: 50px;
+	background: #41768E;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+.backtotop:hover{
+	background: #5D7C8A;
+}
+.footercontent{
+	width: 1263.6px;
+	height: 400px;
+	background: #0A2130;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+}
+.footercontent div p{
+	font-size: 13px;
+	margin-top: 12px;
+}
+.footercontent div p:hover{
+	text-decoration: underline;
+}
+.footercontent div h4{
+	margin-top: 45px;
+}
+.footerlogo{
+	width: 1263.6px;
+	height: 110px;
+	background: #0A2130;
+	border-top: 0.12px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footerlogoa{
+	width: 80px;
+	height: 30px;
+	margin-left: 10px;
+}
+.footerlogob{
+	width: 100px;
+	height: 30px;
+	border: .1px solid grey;
+	border-radius: 3px;
+	margin-left: 100px;
+	color: white;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footerlogoc{
+	width: 140px;
+	height: 30px;
+	border: .1px solid grey;
+	border-radius: 3px;
+	margin-left: 10px;
+	color: white;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footerlogod{
+	width: 130px;
+	height: 30px;
+	border: .1px solid grey;
+	border-radius: 3px;
+	margin-left: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+}
+.biggercontent{
+	width: 1263.6px;
+	height: 350px;
+	color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 22px;
+}
+.biggercontent div{
+	width: 150px;
+	height: 90px;
+	margin-left: 10px;
+}
+.biggercontent div:hover{
+	text-decoration: underline;
+}
+.biggercontent div p{
+	font-size: 12px;
+}
+.biggercontent div h5{
+	font-size: 12px;
+	color: white;
+	font-weight: normal;
+}
+.condition{
+	width: 1263.6px;
+	height: 20px;
+	color: white;
+	font-size:12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.condition p:hover{
+	text-decoration: underline;
+}
+.copyright{
+	width: 1263.6px;
+	height: 20px;
+	font-size: 12px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
